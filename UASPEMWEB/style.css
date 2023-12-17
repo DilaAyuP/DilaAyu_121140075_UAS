@@ -1,0 +1,166 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+:root{
+    scroll-behavior: smooth;
+}
+
+.header {
+    background: linear-gradient(to top, #3386b6, #c7e7f3);
+    margin: 5px;
+}
+
+
+.content {
+    display: flex;
+    min-height: 100vh;
+}
+
+.judul {
+    color:  rgb(0, 0, 0);
+    font-size: 30px;
+    padding: 20px;
+    text-align: center;
+    padding-left: 100px;
+}
+
+
+.content {
+    display: flex;
+    min-height: 100vh;
+}
+
+.sidebar {
+    margin-top: 7px;
+    margin-bottom: 7px;
+    left: 0;
+    padding: 0px;
+    background: rgb(146, 203, 217);
+    width: 260px;
+    transition: all 0.5s ease;
+    box-sizing: border-box;
+}
+
+.sidebar .top {
+    width: 260px;
+    font-size: 22px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    line-height: 70px;
+    background-image: linear-gradient(to bottom, #3386b6, #c7e7f3);
+}
+
+.sidebar ul li a {
+    display: block;
+    height: 100%;
+    width: 100%;
+    line-height: 65px;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    padding-left: 40px;
+    box-sizing: border-box;
+    border-top: 2px solid #0b1b70;
+    border-bottom: 2px solid #0b1b70;
+    border-right: 2px solid #0b1b70;
+    border-left: 2px solid#0b1b70;
+    transition: all 0.5s ease;
+    text-decoration: none;
+}
+
+.sidebar ul li {
+    list-style: none;
+}
+
+ul li:hover a {
+    padding-left: 100px;
+    background: #0b1b70;
+    color: white;
+}
+
+.main_content {
+    margin: 5px;
+    padding: 20px;
+}
+
+body {
+    background-color: #c7e7f3; 
+}
+
+.deskripsi {
+    text-align: justify;
+    font-size: 18px;
+    line-height: 18px;
+}
+
+h2 {
+    text-align: center;
+    letter-spacing: 2px;
+    font-size: 35px;
+    margin-bottom: 10px;
+    text-transform: capitalize;
+}
+
+p {
+    margin-bottom: 3px;
+    letter-spacing: 1.5px;
+    line-break: 1px;
+    line-height: 18px;
+    font-size: 18px;
+    padding: 10px;
+}
+ 
+ul li {
+    letter-spacing: 1px;
+    margin-bottom: 5px;
+    text-align: justify;
+    padding: 5px;
+    margin: 5px;
+}
+
+ol li {
+    letter-spacing: 1px;
+    margin-bottom: 5px;
+    text-align: justify;
+    padding: 5px;
+    margin: 5px;
+}
+
+span {
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    text-transform: capitalize;
+    font-size: 20px;
+}
+
+.myself {
+    padding: 20px;
+    text-align: justify;
+    font-size: 18px;
+}
+
+.tugas {
+    padding: 20px;
+    text-align: justify;
+    font-size: 18px;
+}
+
+.catatan {
+    padding: 20px;
+    text-align: justify;
+    font-size: 18px;
+}
+
+
+footer {
+    display: flex;
+    justify-content: center;
+    background-image: linear-gradient(to bottom, #3386b6, #c7e7f3);
+    color: black;
+    padding: 20px;
+    margin: 5px;
+    font-size: 20px;
+}
