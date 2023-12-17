@@ -11,6 +11,3 @@ Langkah menjalankan program:
 5. Buat database sesuai dengan nama database yang sudah dibuat dalam file
 6. Program dapat dijalankan
 
-Link Website
-https://dilaayup.github.io/DilaAyu_121140075_UAS/
-saya hosting di github yang gratis, maaf kalo terjadi error pada link
